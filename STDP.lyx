@@ -1,0 +1,2194 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass ociamthesis
+\begin_preamble
+% To learn how to use specific packages, CTAN is your friend: http://www.ctan.org/
+
+% Most packages you will not need are commented out.  Just remove the % in front of the line if you want to use them.
+
+%\usepackage[polutonikogreek,english]{babel}  
+% for using  greek fonts add polutonikogreek
+
+%\usepackage[or]{teubner} 
+% for using ancient greek fonts
+\usepackage{amsmath}
+
+\usepackage{longtable} 
+% Allows tables to span multiple pages (this package must be called before hyperref)
+
+%\usepackage{ragged2e} 
+% For allowing word-breaking when using RaggedRight (mainly in captions)
+
+%\usepackage[font=small,format=hang,justification=RaggedRight,labelfont=bf,textfont=it]{caption} 
+% Nicer captions
+
+\usepackage{setspace} 
+% Allows singlespacing of quotes
+
+%\usepackage[pdftex]{graphicx} 
+%usepackage{graphicx}
+% allows graphics in pdf format. Removed amssymb, which clashed with teubner in defining digamma
+
+\usepackage{multicol, multirow,array} 
+% Used to make multiple columns for the indices and for creating columns that span multiple rows in tables
+
+% \usepackage{rotating} 
+% To allow tables in landscape mode
+
+\usepackage{booktabs} 
+% For better looking tables
+
+%\usepackage{pdfpages} 
+% Allows multi-page pdfs to be inserted as graphics
+
+\usepackage{wrapfig} 
+% Allows floating figures and tables
+
+%\usepackage{enumerate} 
+% Allows different numbering styles for Lists
+% to use:
+% \begin{enumerate}[x] 
+% \item text 
+% \end{enumerate} 
+% where x is:
+% A	uppercase letters (as produced by \Alph)
+% a	lowercase letters (as produced by \alph)
+% I	uppercase roman numerals (as produced by \Roman)
+% i	lowercase roman numerals (as produced by \roman)
+% 1	arabic numbers (as produced by \arabic)
+
+
+%%% Bibliography and index stuff %%%
+
+
+%\usepackage{appendix} 
+% For helping format appendicies
+
+
+\usepackage[nottoc]{tocbibind} 
+% Used for inserting the Bibliography, List of Figures, indices, etc into the table of contents.
+
+% \usepackage[sort]{natbib} 
+% To format the bibliography
+% commented out since this is available in the Document -> Settings -> Bibliography pane
+
+%\citeindextrue 
+% This puts the authors into your index (not sure how it compares to authorindex below)
+
+%\usepackage[biblabels]{authorindex} 
+% This is used to make an index of authors from your bibliography. You need authorindex.sty in your styles folder of your latex installation
+%\let\cite=\aicite % this sets the cite command to the one needed for the authorindex package.
+
+%\usepackage{makeidx}
+% This line and the next are used to create an index at the end of the thesis.  To index words, use the command \index{}.  example: she said she \index{love}loved him.
+%		\makeindex
+
+\usepackage[colorlinks=true,citecolor=black,linkcolor=black,plainpages=false,pdfpagelabels]{hyperref} 
+% for linking between references, figures, TOC, etc in the pdf document
+
+\usepackage{minitoc} 
+% If you want to generate a toc for each chapter (use with book).  You are encouraged to read http://www.ctan.org/tex-archive/macros/latex/contrib/minitoc/minitoc.pdf to find out about how this package interferes with tocbibind
+\setcounter{minitocdepth}{3} 
+
+%%% Bibtex refferences
+\usepackage [sort&compress,numbers,square] {natbib} %unsrt
+%\usepackage [authoryear,square] {natbib} %plainnat or unsrtnat
+
+%%% Hyphenation
+\hyphenpenalty=8000
+%\raggedright
+\sloppy
+%abbrvnat,unsrtnat
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement H
+\paperfontsize default
+\spacing double
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 0
+\use_package mhchem 1
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+Press Ctrl+R to see what this document looks like when typeset.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+The three lines below are specific to the 
+\family typewriter
+ociamthesis.cls
+\family default
+ style file which this document uses.
+ They are not usually found in LyX or LaTeX documents.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+college{Green Templeton College}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+degree{Research Rotation Number 1}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+degreedate{Trinity 2014}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Title
+Exploring the interaction of excitatory and inhibitory STDP 
+\end_layout
+
+\begin_layout Author
+Bayar Menzat
+\end_layout
+
+\begin_layout Abstract
+It is known that neurons have plasticity at both inhibitory and excitatory
+ synapses.
+ Babadi and Abbott work focuses on excitatory plasticity.
+ We seek to explore the dynamics generated when inhibitory plasticity is
+ added to the neuron circuit simulated.
+ We hope that the analysis of a pair of neuron with active inhbitory plasticity
+ will yield more accurate predictions of the structure of the network.
+\end_layout
+
+\begin_layout Chapter
+Introduction
+\end_layout
+
+\begin_layout Section
+Background 
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{10 mm}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The first attempts to understand how living organisms learn can be traced
+ back to the writings of the philosophers of antiquity.
+ The view of the brain as a dynamic interconnected network of neurons, which
+ can encode, recall and retrieve information is however relatively recent.
+ It required, among others, the pioneering work of Ramon y Cajal who put
+ forward the neuron doctrine which claims that the brain consists of separate
+ neurons, which communicate through synapses.
+ The synapses change over time due to a multi-factor plasticity mechaism
+ that depends on : firing rate, spike timing, denditric depolarization and
+ synaptic cooperativity.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "1 -feldman "
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{10 mm}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Spike-Timing Dependent Plasticity
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{10 mm}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+It has been experimentally discovered that at neurocortical synapses the
+ sign and amount of synaptic modification depend on both the firing rate
+ and spike timing.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "2 -Nelson et al"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+STDP can be seen as a spike-based variant of the Hebbian rule where synaptic
+ change depends on the relative timing of pre and postsynaptic action potential.
+ 
+\end_layout
+
+\begin_layout Standard
+During STDP synapse potentiates when the postsynaptic spike happens after
+ the pre-synaptic spike within a time window of the order of tens of millisecond
+s and depresses when the order is reversed.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "3 -poo-stdp-review"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Equation 1 describes the standard form of STDP 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "4 -song and abbot - competitive"
+
+\end_inset
+
+ : 
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+[
+\backslash
+Delta w= F(
+\backslash
+Delta t) =  
+\backslash
+begin{cases}     -A_{-}e^{(
+\backslash
+Delta t
+\end_layout
+
+\begin_layout Plain Layout
+
+)/
+\backslash
+sigma_{-}},& 
+\backslash
+text{if } 
+\backslash
+Delta t
+\backslash
+geq 0
+\backslash
+
+\backslash
+     A_{+}e^{(
+\backslash
+Delta t)/
+\backslash
+sigma_{+}},              & 
+\backslash
+text{otherwise} 
+\backslash
+end{cases} (1)
+\backslash
+] 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{10 mm}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Here 
+\begin_inset Formula $A_{+}$
+\end_inset
+
+ and 
+\begin_inset Formula $A_{-}$
+\end_inset
+
+ are both positive and determine the maximum potentiation and depression
+ respectively when 
+\begin_inset Formula $\Delta t$
+\end_inset
+
+ is close to zero.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\tau_{-}$
+\end_inset
+
+ and 
+\begin_inset Formula $\tau_{+}$
+\end_inset
+
+ determine the range of the STDP function over which streghtening and weakning
+ can occur.
+ Experimental results have shown measured similar values for 
+\begin_inset Formula $\tau_{-}$
+\end_inset
+
+ and 
+\begin_inset Formula $\tau_{+}$
+\end_inset
+
+ with some suggesting 
+\begin_inset Formula $\tau_{-}$
+\end_inset
+
+ = 
+\begin_inset Formula $\tau_{+}$
+\end_inset
+
+ = 20 ms.
+\end_layout
+
+\begin_layout Standard
+Figure 1.1 shows the depression and potentiation of the synapse in the balanced
+ form of STDP.
+\end_layout
+
+\begin_layout Standard
+
+\lang british
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\lang british
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Graphics
+	filename stdp.png
+	width 40col%
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang british
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+caption [text to list of figures]{Spike Timing Dependent Plasticity modification
+ function.
+ Synapatic change due to pair-based activity of pre and post synaptic side
+ [Poo 1] }
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In the standard formulation of the Hebbian rule synapses could theoretically
+ grow unlimitedely which is highly unrealitic.
+ 
+\end_layout
+
+\begin_layout Standard
+In STDP models this is adressed by implementing bounds of the range of values
+ the synapses can reach.
+ 
+\end_layout
+
+\begin_layout Standard
+For the sake of simplicity lower bounds are set to 0.
+ 
+\begin_inset Formula $w_{min}=0$
+\end_inset
+
+.
+ .
+ 
+\begin_inset Formula $w_{max}$
+\end_inset
+
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ is set by choosing the right function for the potentiation parameter (
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+
+\begin_inset Formula $A_{+}=0$
+\end_inset
+
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+).
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Soft bounds take into consideration the current weight of the synapse and
+ in the case of large weights depression dominates over potnetiation.
+ 
+\end_layout
+
+\begin_layout Standard
+STDP can be implemented either by restricting the interactions over nearest
+ neighbors ( Figure 1.2 a) or by summing over all the presynaptic spike arrivals
+ and all the postsynaptic spikes in the case of all to all STDP ( Figure
+ 1.2 b).
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "10 Sjöström J. Gerstner W."
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+Pair-based STDP with hard bounds is partially stable and can induce Hebbian
+ competition between correlated and uncorrelated synapses.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "4 -song and abbot - competitive"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\lang british
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\lang british
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Graphics
+	filename nnata.png
+	width 120col%
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang british
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+caption [text to list of figures]{a) Nearest neighbour STDP b)to all-to-all
+ STDP }
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{5 mm}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+Previous analysis by Babadi has shown that competition and stability are
+ not compatible in neural circuits.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "8 -Intrinstic-Stability-Temporally-Shifted"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Plain Layout
+If the potentiation window is large than the depression window, pair-based
+ STDP with hard bounds is unstable and no competition takes place.
+ Pair-based STDP with soft bounds is stable but with no competition.
+\end_layout
+
+\begin_layout Plain Layout
+In unshifted STDP the hard boundaries produce a U shaped steady-state distributi
+on of synaptic strengths.
+\end_layout
+
+\begin_layout Plain Layout
+Babadi proposes the time shifted STDP as a biophysically inspired solution
+ to the problem of having both competition and stability in the neural circuit.
+ 
+\end_layout
+
+\begin_layout Plain Layout
+The time shifted STDP produces a unimodal distribution of synaptic strengths
+ which is stable even when no limits are imposed.
+ (Equation 2)
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+[
+\backslash
+Delta w= F(
+\backslash
+Delta t) =  
+\backslash
+begin{cases}     -A_{-}e^{(
+\backslash
+Delta t-d)/
+\backslash
+sigma_{-}},& 
+\backslash
+text{if } 
+\backslash
+Delta t
+\backslash
+geq d
+\backslash
+
+\backslash
+     A_{+}e^{(
+\backslash
+Delta t-d)/
+\backslash
+sigma_{+}},              & 
+\backslash
+text{otherwise} 
+\backslash
+end{cases} (2)
+\backslash
+] 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter
+Methods
+\end_layout
+
+\begin_layout Section
+Pairwise interaction between neurons with excitatory STDP synapses
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="18" columns="3">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Parameter
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Symbol 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Default Value
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Membrane Time Constant
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\tau_{m}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+20ms
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Spiking threshold
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $V_{th}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-40mV
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Resting membrane potential
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $V_{inh}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-60mV
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Maximum potentiation amplitude
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $A_{+}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.006mV
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Maximum Depression amplitude
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $A_{-}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.005mV
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Potentiation time constant
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\tau_{+}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+20ms
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Depression time constant
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\tau_{-}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+20ms
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Window shift
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $d$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Number of Poisson excitatory synapses
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $N{}_{poiss-ex}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+200
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Number of Poisson inhibitory synapses
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $N_{pois-inh}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+50
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Number of Integrate and fire neurons
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $N{}_{int-fire}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Excitatory input rate
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $r{}_{ex}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+10Hz
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Inhibitory input rate
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $r{}_{in}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+10Hz
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Excitatory conductance
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $E_{ex}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0 mV
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Inhibitory conductance
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $E_{inh}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-80 mV
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Excitatory conductance time constant
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\tau_{ex}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5ms
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Inhibitory conductance time constant
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\tau_{inh}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+10ms
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{5 mm}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+For our first model a single pair of neurons were used to study the dynamics
+ of STDP.
+ Figure 2.1.
+\end_layout
+
+\begin_layout Standard
+
+\lang british
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\lang british
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Graphics
+	filename 2 Happy Neurons.png
+	width 100col%
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang british
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+caption [text to list of figures]{Pairwise interactions of neurons through
+ reciprocal synapses.
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+Two neurons are modeled that receive Poisson excitatory and inhibitory input.
+ Whenever neuron 1 fires the yellow synapses(w21) induces an increase in
+ the transient firing rate of neuron 2.
+ The increase in the transient firing rate of 1 occurs when neuron 2 fires
+ }
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{5 mm}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The neurons are modeled using two LIF neurons each receiving 
+\begin_inset Formula $N_{ex}$
+\end_inset
+
+ excitatory and 
+\begin_inset Formula $N_{in}$
+\end_inset
+
+ inhibitory presynaptic spike trains with Poisson statistics at rates 
+\begin_inset Formula $r_{ex}$
+\end_inset
+
+ and 
+\begin_inset Formula $r_{inh}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Experiments have shown the irregularity in ISI of cortical neurons which
+ makes the Poisson excitatory and inhibitory input in our neurons biologically
+ plausible[ 
+\end_layout
+
+\begin_layout Standard
+We begin by replicating the results described in [babadi-1] when studying
+ the evolution of synaptic weights in pair-based STDP.
+ 
+\end_layout
+
+\begin_layout Standard
+We used nearest neighbor STDP, with equal depression and potentiation and
+ no temporal shift.
+\end_layout
+
+\begin_layout Standard
+The probability function of a spike arriving at a certain time 
+\begin_inset Formula $\Delta t$
+\end_inset
+
+ at the synapse when the presynaptic and postsynaptic trains are Poisson
+ is an exponentially decaying function determined by the magnitude of the
+ interval between them.
+ The average modification for a synaptic strength w is[babadi-1]:
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{5 mm}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\frac{dw}{dt}=(A_{+}\tau_{+}-A_{-}\tau_{-})r_{pre}r_{post}+\frac{A_{+}\tau_{+}\tau_{s}r_{pre}w}{(\tau_{s}+\tau_{+})(V_{th}-V_{r})\tau_{m}}$
+\end_inset
+
+(5)
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{5 mm}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The first term of the equation relates the change in synaptic strength to
+ the average strength of all excitatory synapses through 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $r_{post}$
+\end_inset
+
+
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ term which is the average baseline firing rate for postynaptic neurons.
+\end_layout
+
+\begin_layout Standard
+The second term depends on the synaptic strength of the particular synapse
+ being considered and it signifies the transient increase of postsynaptic
+ firing rate following a presynaptic spike at this synapse.
+\end_layout
+
+\begin_layout Standard
+Figure 21 and Figure 22 shows the dynamics of reciprocal synapses under
+ balanced STDP derived from the analytical equation.
+\end_layout
+
+\begin_layout Standard
+
+\lang british
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\lang british
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Graphics
+	filename /Users/MacbookPro/Dropbox/twoFiguresDynamicWeights.png
+	width 130col%
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang british
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+caption [text to list of figures]{ Dynamics of reciprocal synapses when
+ the baseline firing rate is equal }
+\backslash
+caption [text to list of figures]{Dynamics of reciprocal synapses when the
+ baseline firing rate is different ( 20 Hz vs 30 Hz) 
+\end_layout
+
+\begin_layout Plain Layout
+
+When the pair of neurons have the same firing rate synapses which have the
+ same weight do not change.
+  
+\end_layout
+
+\begin_layout Plain Layout
+
+When there a difference between the weights, the weights will change until
+ they reach an attractor at the bottom right or top left.
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+Filled circle represent attractors and open circles represent unstable fixed
+ points.
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+We validated the analytical results computationally before adding an inhibitory
+ synapse to our model.
+ 
+\end_layout
+
+\begin_layout Standard
+We modeled the synaptic connections between neurons as conductances with
+ the CUBA model.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "11 Vogels JNeuron05"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In this equation 
+\begin_inset Formula $V(t)$
+\end_inset
+
+..
+ represents the membrane potential at time t, tau is the membrane time constant
+ and is the membrane resistance.
+ When the membrane 
+\begin_inset Formula $V(t)$
+\end_inset
+
+.
+ reaches the threshold 
+\begin_inset Formula $V_{th}$
+\end_inset
+
+.
+ it is rested to the value 
+\begin_inset Formula $V_{rest}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{5 mm}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\tau\frac{dv}{dt}=(V_{rest}-V)+g_{ex}(E_{ex}-V_{rest})+g_{inh}(E_{inh}-V_{rest})$
+\end_inset
+
+(2)
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{5 mm}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The synaptic conductances 
+\begin_inset Formula $g_{ex}$
+\end_inset
+
+ and 
+\begin_inset Formula $g_{inh}$
+\end_inset
+
+ are expressed in units of the resting membranes conductance.
+ 
+\begin_inset Formula $g_{ex}$
+\end_inset
+
+ and 
+\begin_inset Formula $g_{inh}$
+\end_inset
+
+ obey the exponential decay functions : 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\tau_{ex}=\frac{dg_{ex}}{dt}=-g_{ex}$
+\end_inset
+
+(3)
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{5 mm}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\tau_{inh}\frac{dg_{inh}}{dt}=-g_{inh}$
+\end_inset
+
+(4)
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{5 mm}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+When an excitatory neuron fires 
+\begin_inset Formula $g_{ex}$
+\end_inset
+
+.
+ is increased in the postynaptic neuron by 
+\begin_inset Formula $\Delta g_{ex}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Conversely, When an inhibitory neuron fires, 
+\begin_inset Formula $g_{inh}$
+\end_inset
+
+.
+ is increased in the posynaptic neuron 
+\begin_inset Formula $\Delta g_{inh}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection*
+2.1.2 Results
+\end_layout
+
+\begin_layout Section
+Pairwise interaction between neurons with excitatory and inhibitory STDP
+ synapses
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "feldman the st-dependence-plasticity"
+key "1 -feldman "
+
+\end_inset
+
+Feldman D (2012) The spike-timing dependence of plasticity.
+ Available at: 
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+http://wwww.google.com
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Nelson et al"
+key "2 -Nelson et al"
+
+\end_inset
+
+Nelson et all 11.
+ Available at:
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+http://wwww.google.com
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "poo-stdp-review"
+key "3 -poo-stdp-review"
+
+\end_inset
+
+Dan Y, Poo M (2006) Spike timing-dependent plasticity: from synapse to perceptio
+n.
+ Physiological Reviews 86: 1033–48.] Available at : 
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+http://wwww.google.com
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "song and abbot - competitive"
+key "4 -song and abbot - competitive"
+
+\end_inset
+
+Spike timing-dependent plasticity: from synapse to perception.
+ Physiological Reviews 86: 1033–48 Available at : 
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+http://wwww.google.com
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "poo-2"
+key "5 -poo-2"
+
+\end_inset
+
+[Bi, G.Q.
+ and Poo, M.M.
+ Synaptic modifications in cultured Hippocampal neurons: dependence on spike
+ timing, synaptic strength, and postsynaptic cell type.
+ J.
+ Neurosci.
+ 18, 10464-72, (1998).] Available at :
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+http://wwww.google.com
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "song-abbott-competitive-hebbian"
+key "6 song-abbott"
+
+\end_inset
+
+Song, S.
+ Miller, K.D.
+ Abbott, L.F.
+ Competitive hebbian learning through spike timing dependent synaptic plasticity.
+ Nat.
+ Neurosci 3 , 919-926, (2000)Available at: 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://wwww.google.com
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Babadi-2013"
+key "7 Babadi-2013"
+
+\end_inset
+
+Pairwise Analysis Can Account for Network Structures Arising from Spike-Timing
+ Dependent Plasticity(2013).
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://wwww.google.com
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Intrinstic-Stability-Temporally-Shifted"
+key "8 -Intrinstic-Stability-Temporally-Shifted"
+
+\end_inset
+
+Intrinsic Stability of Temporally Shifted Spike-Timing Dependent Plasticity
+ 
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+http://wwww.google.com
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "heger-poisson"
+key "9 Heeger - Poisson"
+
+\end_inset
+
+Heeger, D.
+ Poisson model of spike generation.
+ (2000).
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+http://wwww.google.com
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Sjöström J. Gerstner W."
+key "10 Sjöström J. Gerstner W."
+
+\end_inset
+
+Scholarpedia 5, 1362 Available at:
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+http://www.scholarpedia.org/article/STDP
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Vogels05"
+key "11 Vogels JNeuron05"
+
+\end_inset
+
+Vogels05 Available at:
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+http://link.springer.com/article/10.1007/s00422-008-0233-1/fulltext.html
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
